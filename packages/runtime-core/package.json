@@ -1,0 +1,12 @@
+{
+  "name": "@chibivue/runtime-core",
+  "type": "module",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ]
+}

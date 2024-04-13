@@ -1,0 +1,15 @@
+{
+  "name": "@chibivue/runtime-dom",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "default": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "dependencies": {
+    "@chibivue/runtime-core": "workspace:*"
+  }
+}

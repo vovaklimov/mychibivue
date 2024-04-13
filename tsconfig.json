@@ -1,0 +1,5 @@
+{
+  "references": [{ "path": "./packages/runtime-core" }, { "path": "./packages/runtime-dom" }],
+  "files": [],
+  "include": []
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chibivue",
+  "private": true,
+  "scripts": {
+    "dev": "turbo build-packages:watch dev",
+    "build-packages:watch": "tsc -b -w",
+    "format": "prettier --write ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.2",
+    "typescript": "^5.4.5"
+  }
+}
