@@ -1,5 +1,9 @@
 {
-  "references": [{ "path": "./packages/runtime-core" }, { "path": "./packages/runtime-dom" }],
   "files": [],
-  "include": []
+  "include": [],
+  "references": [
+    { "path": "./packages/runtime-core" },
+    { "path": "./packages/runtime-dom" },
+    { "path": "./packages/chibivue" }
+  ]
 }

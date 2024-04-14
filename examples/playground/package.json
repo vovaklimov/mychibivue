@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chibivue/runtime-dom": "workspace:*"
+    "chibivue": "workspace:*"
   },
   "devDependencies": {
     "vite": "^5.2.0"

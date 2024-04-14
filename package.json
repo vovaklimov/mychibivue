@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "turbo build-packages:watch dev",
     "build-packages:watch": "tsc -b -w",
+    "build-packages": "tsc -b",
     "format": "prettier --write ."
   },
   "license": "ISC",

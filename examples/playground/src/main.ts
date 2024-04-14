@@ -1,4 +1,4 @@
-import { createApp } from "@chibivue/runtime-dom";
+import { createApp } from "chibivue";
 
 createApp({
   render() {

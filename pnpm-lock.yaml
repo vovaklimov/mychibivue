@@ -23,13 +23,19 @@ importers:
 
   examples/playground:
     dependencies:
-      '@chibivue/runtime-dom':
+      chibivue:
         specifier: workspace:*
-        version: link:../../packages/runtime-dom
+        version: link:../../packages/chibivue
     devDependencies:
       vite:
         specifier: ^5.2.0
         version: 5.2.8(@types/node@20.12.7)
+
+  packages/chibivue:
+    dependencies:
+      '@chibivue/runtime-dom':
+        specifier: workspace:*
+        version: link:../runtime-dom
 
   packages/runtime-core: {}
 
