@@ -33,6 +33,9 @@ importers:
 
   packages/chibivue:
     dependencies:
+      '@chibivue/runtime-core':
+        specifier: workspace:*
+        version: link:../runtime-core
       '@chibivue/runtime-dom':
         specifier: workspace:*
         version: link:../runtime-dom
